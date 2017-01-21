@@ -1,15 +1,24 @@
 plugins:
-  sidebar_enable:
+  call_to_action_enable:
     default: false
     client: true
-  sidebar_block_order:
-    client: true
-    type: list
-    default: "latest_replies"
-  sidebar_custom_content:
+  call_to_action_image_url:
     type: text
     default: ''
     client: true
-  sidebar_num_results:
-    default: '6'
+  call_to_action_big_text:
+    type: text
+    default: 'Big call to action text'
+    client: true
+  call_to_action_big_text_color:
+    type: text
+    default: '#000000'
+    client: true
+  call_to_action_little_text:
+    type: text
+    default: 'Little call to action text'
+    client: true
+  call_to_action_little_text_color:
+    type: text
+    default: '#000000'
     client: true

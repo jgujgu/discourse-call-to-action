@@ -1,6 +1,8 @@
 en:
   site_settings:
-    sidebar_enable: "Show sidebar on the right list screens."
-    sidebar_block_order: "Include blocks for the sidebar. Enter category slugs, 'latest_replies' for the latest replies block and/or 'custom_html' for the custom HTML from the field below."
-    sidebar_custom_content: "Custom HTML content. To show this, you must include 'custom_html' in block list above."
-    sidebar_num_results: "Number of category posts to display on each sidebar block."
+    call_to_action_enable: "Enable full screen call to action?"
+    call_to_action_image_url: "Image url for your site logo."
+    call_to_action_big_text: "Big call to action text."
+    call_to_action_little_text: "Little call to action text."
+    call_to_action_big_text_color: "Big call to action text color."
+    call_to_action_little_text_color: "Little call to action text color."

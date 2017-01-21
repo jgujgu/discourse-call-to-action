@@ -1,7 +1,8 @@
-# name: discourse-sidebar-blocks
-# about: add a sidebar to topic lists (discovery) with several blocks available: posts from a category, recent replies
+# name: discourse-call-to-action
+# about: add a call to action overlay on discovery pages
 # version: 0.1
-# authors: pmusaraj
-# url: https://github.com/pmusaraj/discourse-home-sidebar
+# authors: jgujgu
+# url: https://github.com/jgujgu/discourse-call-to-action
 
-register_asset "stylesheets/sidebar.scss"
+register_asset "stylesheets/call_to_action.scss"
+enabled_site_setting :call_to_action_enable

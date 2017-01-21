@@ -1,4 +1,2 @@
-# discourse-sidebar-blocks
-
-A discourse plugin that adds a sidebar to topic lists (discovery) with several blocks available: posts from a category, recent replies
-
+# discourse-call-to-action
+A discourse plugin to add a call to action overlay on discovery pages

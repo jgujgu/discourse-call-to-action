@@ -1,0 +1,17 @@
+{{#if siteSettings.call_to_action_enable }}
+  {{#unless currentUser}}
+    <div id="full-page-signup-cta">
+      {{d-button action="showLogin" class="btn-primary btn-small login-button" label="log_in" }}
+      <img src="{{ siteSettings.call_to_action_image_url }}"/>
+      <h1 style="color:{{ siteSettings.call_to_action_big_text_color }}">
+        {{ siteSettings.call_to_action_big_text }}
+      </h1>
+      <h4>
+        <span style="color:{{ siteSettings.call_to_action_little_text_color }}">
+          {{ siteSettings.call_to_action_little_text }}
+        </span>
+      </h4>
+      {{d-button action="showCreateAccount" class="btn-primary btn-large sign-up-button" label="signup_cta.sign_up" }}
+    </div>
+  {{/unless}}
+{{/if}}
